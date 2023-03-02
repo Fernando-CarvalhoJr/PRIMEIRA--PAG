@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: -10px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: baseline;
+  justify-content: center;
+  align-items: center;
+}
+
+header .center {
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width:100%;
+  margin:center;
+  padding: 0 20px;
+  background-color:whitesmoke;
+}
+
+
+header .logo {
+  margin-right: auto;
+  margin-block-start: -25px;
+}
+
+header .logo img {
+  height: 140px;
+  width: 140px;
+  margin: center;
+}
+
+header .menu a {
+  margin: 0 20px;
+}
+
+html.body{
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+header{
+  height: 200px;
+  padding: 20px 0;
+}
+
+.logo{
+  width: 50%;
+}
+
+.menu :hover{
+  color:rgb(133, 133, 133);
+  padding-top: 10;
+  width: 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.menu a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+section.sobre{
+  height: calc(100% - 200px);
+  position: relative;
+}
+
+.extras{
+  position: absolute;
+  bottom: -400;
+  right: -500;
+  width: 1200px;
+  height: 1202px;
+  border-radius: 50%;
+}
+
+.extras img{
+  border-radius: 15px 0;
+}
+
+.texto-sobre{
+  margin-top: 100px;
+}
+
+.texto-sobre h1{
+  font-size: 50px;
+}
+
+.texto-sobre p{
+  margin:20px 0;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  max-width: 800px;
+}
+.texto-sobre button{
+  border:0;
+  background-color: #017143;
+  color: white;
+  border-radius: 25px;
+  height: 40px;
+  width: 400px;
+}
+
+.center1{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
